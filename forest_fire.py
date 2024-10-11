@@ -22,8 +22,8 @@ log_reg = LogisticRegression()
 
 log_reg.fit(X_train, y_train)
 
-inputt=[int(x) for x in "45 32 60".split(' ')]
-final=[np.array(inputt)]
+input=[int(x) for x in "45 32 60".split(' ')]
+final=[np.array(input)]
 
 b = log_reg.predict_proba(final)
 
